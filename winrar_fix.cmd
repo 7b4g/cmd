@@ -1,3 +1,5 @@
+:: remove winrar banner
+
 set homePath=%cd%
 move "%homePath%\winrar_fix.cmd" "%cd%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
