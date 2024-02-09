@@ -1,3 +1,4 @@
+:: BETA version! NEED testing.
 :: Windows updates can take long time 
 :: But it can be more quick if use 1 acrhive file instead many small files from network
 :: This script automate downloading archive file from network folder and install updates locally from user PC
