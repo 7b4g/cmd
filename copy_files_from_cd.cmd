@@ -1,6 +1,6 @@
 :: For example you have 1000 CD disks and you need copy files from it in your dir
 :: Too much routine to do it manually
-:: So you can simple use this script
+:: So you can just use this script
 
 @echo off
 chcp 65001>nul
