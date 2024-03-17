@@ -5,9 +5,10 @@
 @echo off
 chcp 1251 >nul
 
-set temp_1=C:\Users\%username%\Desktop\arh-375893458.tmp
-set temp_2=C:\Users\%username%\Desktop\arh-564564537.tmp
 set arch_path="C:\Users\%username%\Desktop\outlook_arhives_path.txt"
+
+set temp_1=C:\Users\%username%\AppData\Local\Temp\arh-375893458.tmp
+set temp_2=C:\Users\%username%\AppData\Local\Temp\arh-564564537.tmp
 
 if exist %arch_path% goto profile
 for /f "tokens=*" %%i IN ('reg query "HKEY_CLASSES_ROOT\Word.Application\CurVer"') do set var=%%i
